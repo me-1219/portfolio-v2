@@ -59,7 +59,7 @@ export const About = () => (
         <div className="p-4 rounded-lg bg-white/[0.03] border border-white/5">
           <p className="font-mono text-xs text-slate-500 mb-2">Languages</p>
           <div className="flex gap-2 flex-wrap">
-            {['Amharic 🇪🇹 (Native)', 'English (Professional)'].map(l => (
+            {['Amharic 🇪🇹 (Native)', 'English (Working Proficiency)'].map(l => (
               <span key={l} className="text-xs text-slate-300 bg-teal-400/10 border border-teal-400/20 rounded px-2 py-1">
                 {l}
               </span>
