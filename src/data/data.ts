@@ -2,7 +2,7 @@ import CV from "./mebit_melak.pdf";
 
 export const personalInfo = {
   name: 'Mebit Melak',
-  title: 'Full-Stack Software Engineer',
+  title: 'Full-Stack Software Developer',
   location: 'Addis Ababa, Ethiopia',
   email: 'melakmebit75@gmail.com',
   phone: '+251 973921904 / +251 704943841',
@@ -10,7 +10,7 @@ export const personalInfo = {
   linkedIn: 'https://www.linkedin.com/in/mebit-melak-gashaye-31b2b1379/',
   portfolio: 'https://cv.melaklegacy.com.et',
   cv: CV,
-  bio: "Full Stack Software Engineer from Ethiopia with experience in web application development, backend systems, frontend technologies, databases, and Oracle cloud deployment. Committed to delivering efficient, scalable, and high-quality software solutions.",
+  bio: "Full Stack Software Developer from Ethiopia with experience in web application development, backend systems, frontend technologies, databases, and Oracle cloud deployment. Committed to delivering efficient, scalable, and high-quality software solutions.",
   availableForWork: true,
 };
 
@@ -23,25 +23,32 @@ export const skills = [
 
 export const experiences = [
   {
-    company: 'Center for Digital Health Implementation Science (CDHIS) ',
+    company: 'Center for Digital Health Implementation Science (CDHIS)',
     role: 'Software Developer Intern',
     period: 'June 2024 – September 2024',
-    description: "Collaborated on a comprehensive web-based Project Management System to streamline task assignment and team tracking,Built frontend components using React and TailwindCSS for a clean, responsive interface,Assisted in backend configuration with Django and API integration for user authentication and data handlingContributed to system testing, feature validation, and documentation of user requirements",
+    description: 'Built responsive frontend components with React and Tailwind CSS for a project management system used to coordinate task assignment and team tracking workflows.Configured backend features in Django, including REST API endpoints, authentication, and data management logic, in collaboration with a small development team.Executed system testing and feature validation cycles, identifying and documenting bugs and user requirement gaps to support release readiness.Maintained version-controlled codebase using Git and GitHub, contributing to consistent development and review practices across the team.',
     tags: ['Django', 'Python', 'PostgreSQL', 'REST APIs', 'React', 'Tailwind CSS'],
   },
   {
-    company: 'Freelance Projects',
+    company: 'Freelance / Client Projects',
     role: 'Full-Stack Developer',
     period: 'June 2024 – Present',
-    description: 'Building e-commerce web applications with product management, shopping cart, user authentication, and order management features.Built responsive frontend interfaces using React, Tailwind CSS, and modern JavaScript.Developed backend systems using PHP/Laravel/, Django, Node.js, and REST APIs with database integration.Implemented secure user authentication, API integration, and deployment workflows.Managed source code and project development using Git and GitHub.',
+    description: 'Delivered a full e-commerce platform for a Merkato-based phone accessories retailer, building product management, shopping cart, and order management features with PHP, Laravel, and MySQL.Built a production-ready MERN authentication boilerplate with JWT, Google OAuth, and OTP email verification to support secure user registration and account management.Worked directly with non-technical clients to gather requirements and iterate on UI/UX based on user testing feedback.Managed source code and project development using Git and GitHub.',
     tags: ['PHP/Laravel', 'Django', 'MySQL', 'REST APIs', 'React', 'Tailwind CSS'],
   },
-   {
+  {
     company: 'Self-Employed',
     role: 'Full-Stack Developer',
     period: 'October 2025 – Present',
-    description: 'Building a research analytics platform focused on analyzing and improving the visibility of Ethiopian research activities. The system includes researcher, academic, and institutional profiles, along with analytics features for institution and researcher rankings, publication trends, research impact assessment, collaboration networks, citation analysis, and productivity tracking. It also manages journals, publications, and research histories while providing data-driven insights to support research performance evaluation and national research development.',
-    tags: ['React', 'Django', 'PostgreSQL', 'Docker', 'Oracle Cloud Deployment', 'REST APIs','Data Visualization','OpenAlex API'],
+    description: 'Designed and built a PostgreSQL database and Django REST Framework backend to track researcher profiles, institution rankings, and publication history for the Ethiopian research community.Collected and cleaned publication data from the OpenAlex API using Python and Google Colab, structuring it into analytics-ready datasets covering publication trends and collaboration networks.Developed a React.js dashboard to visualize research performance indicators, including citation impact, researcher productivity, and institutional output.Deployed and maintained the full application stack with Docker, Gunicorn, and Nginx on an Oracle Cloud server, delivering a live, publicly accessible platform.',
+    tags: ['React', 'Django', 'PostgreSQL', 'Docker', 'Oracle Cloud Deployment', 'REST APIs', 'Data Visualization', 'OpenAlex API'],
+  },
+  {
+    company: 'Holy Trinity Ethiopian Orthodox Tewahedo Centre, Canberra, Australia',
+    role: 'Volunteer Web Developer',
+    period: '2024',
+    description: 'Designed, built, and deployed a public website to share church services, events, and announcements with the local community.Supported the organization\'s formal registration as a community/non-government organization in Australia, contributing to its eligibility for a multicultural government grant.Managed hosting and deployment independently using cPanel, delivering a live production site still in active use.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'cPanel'],
   },
 ];
 
@@ -56,16 +63,16 @@ export const projects = [
   {
     title:       "Phone LCD Store platform",
     description: "Full-featured e-commerce platform for selling phone LCDs and accessories with product management, cart, wishlist, and checkout.",
-    tags: [ 'PHP', 'MySQL', 'Bootstrap', 'javascript', 'Apache', 'SEO'],
+    tags: [ 'PHP', 'MySQL', 'Bootstrap', 'JavaScript', 'Apache', 'SEO'],
     github: 'https://github.com/me-1219/phone-accessories-stores',
     live: 'https://msglcd.com',
   },
   {
-    title: 'Ethiopian Researcher Analytics Platform',
-    description: 'Analytics platform aggregating research data across Ethiopian universities. Features dashboards, publication tracking, and researcher profiles.',
-    tags: ['React', 'Django', 'PostgreSQL', 'Docker', 'Oracle Cloud Deployment', 'Data Visualization'],
+    title: 'Ethiopian Research Analytics Platform',
+    description: 'Self-built analytics platform tracking researcher profiles, institution rankings, and publication trends for the Ethiopian research community, with data collected from the OpenAlex API.',
+    tags: ['React', 'Django', 'PostgreSQL', 'Docker', 'Oracle Cloud Deployment', 'Data Visualization', 'OpenAlex API'],
     github: null,
-    live: null,
+    live: 'http://81.208.170.152',
   },
   {
   title: "E-Commerce Shoe Platform",
@@ -99,8 +106,15 @@ export const projects = [
   live: "",
   github: "https://github.com/me-1219/express-mongodb-crud-API",
 },
+  {
+  title: "Holy Trinity Ethiopian Orthodox Tewahedo Centre",
+  description:
+    "Volunteer community website built for a church in Canberra, Australia, to share services, events, and announcements with the local community.",
+  tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "cPanel"],
+  live: "https://holytrinitycanberra.org.au",
+  github: null,
+},
 ]
-
 export type BlogPost = {
   slug: string;
   title: string;

@@ -13,15 +13,15 @@ export const About = () => (
                 BSc in Computer Science
               </strong> from{' '}
           <span className="text-teal-400 font-medium">Haramaya University</span> (Class of 2025).
-         am actively seeking roles where I can
-              contribute to impactful products while continuing to grow as an engineer.
+          I&apos;m actively seeking roles where I can
+              contribute to impactful products while continuing to grow as a developer.
         </p>
         
         <p className="text-slate-400 leading-relaxed">
-          I&apos;m particularly passionate about creating technology solutions that address local and global challenges, including research platforms, business applications, e-commerce systems, and digital services that improve accessibility and efficiency.
+          I&apos;m building and contributing to real-world software projects that address practical problems in research, business, and community service.
         </p>
         <p className="text-slate-400 leading-relaxed">
-          Currently, I'm focused on building my own projects, exploring new technologies, and continuously improving my skills as a software engineer.
+          Currently, I'm focused on building my own projects, exploring new technologies, and continuously improving my skills as a software developer.
         </p>
       </div>
 
