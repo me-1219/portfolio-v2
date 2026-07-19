@@ -1,4 +1,4 @@
-import CV from "./mebtu.pdf";
+import CV from "./mebit_melak.pdf";
 
 export const personalInfo = {
   name: 'Mebit Melak',

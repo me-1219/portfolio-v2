@@ -8,7 +8,6 @@ export const Experience = () => (
     <div className="relative">
       {/* Timeline line */}
       <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-teal-400/50 via-teal-400/20 to-transparent ml-3 hidden md:block" />
-
       <div className="space-y-8 md:pl-12">
         {experiences.map((exp, i) => (
           <div
@@ -46,3 +45,4 @@ export const Experience = () => (
     </div>
   </Section>
 );
+
