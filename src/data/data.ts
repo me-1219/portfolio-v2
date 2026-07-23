@@ -1,4 +1,6 @@
 import CV from "./mebit_melak.pdf";
+import Public from "./research-analytics.png";
+import Mulie from "./mulie-shoes.png";
 
 export const personalInfo = {
   name: 'Mebit Melak',
@@ -13,6 +15,7 @@ export const personalInfo = {
   bio: "Full Stack Software Developer from Ethiopia with experience in web application development, backend systems, frontend technologies, databases, and Oracle cloud deployment. Committed to delivering efficient, scalable, and high-quality software solutions.",
   availableForWork: true,
 };
+
 
 export const skills = [
   { category: 'Frontend', items: ['React.js', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vite'] },
@@ -46,7 +49,7 @@ export const experiences = [
   {
     company: 'Holy Trinity Ethiopian Orthodox Tewahedo Centre, Canberra, Australia',
     role: 'Volunteer Web Developer',
-    period: '2024',
+    period: '2025',
     description: 'Designed, built, and deployed a public website to share church services, events, and announcements with the local community.Supported the organization\'s formal registration as a community/non-government organization in Australia, contributing to its eligibility for a multicultural government grant.Managed hosting and deployment independently using cPanel, delivering a live production site still in active use.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'cPanel'],
   },
