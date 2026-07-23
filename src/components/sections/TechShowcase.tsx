@@ -92,11 +92,11 @@ export const TechShowcase = () => {
       {/* dashed connector lines */}
       <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
         <g strokeWidth="0.3" strokeDasharray="1.5 1.5" fill="none" className="stroke-teal-500/25 dark:stroke-teal-400/35">
-          <path d="M 20 22 L 42 40" />
-          <path d="M 80 22 L 58 40" />
+          <path d="M 10 22 L 30 40" />
+          <path d="M 90 22 L 58 40" />
           <path d="M 20 78 L 42 62" />
           <path d="M 80 78 L 58 62" />
-          <path d="M 62 18 L 55 30" />
+         <path d="M 45 10 L 45 39" />
         </g>
       </svg>
 
@@ -149,19 +149,26 @@ export const TechShowcase = () => {
             </div>
         </div>
 
-        <div className="flex flex-col gap-1.5">
-            {[0, 1, 2, 3].map((i) => (
-            <div
-                key={i}
-                className="w-10 h-6 rounded border border-teal-400/30 bg-slate-100 dark:bg-navy-800 flex items-center px-1.5"
-            >
+            <div className="flex flex-col gap-1.5">
+                {"MEBIT".split("").map((letter, i) => (
+                <div
+                key={letter}
+                className="w-10 h-6 rounded-md border border-teal-400/30
+                bg-gradient-to-r from-slate-100 to-slate-200
+                dark:from-navy-800 dark:to-navy-700
+                flex items-center justify-center"
+                >
                 <span
-                className="w-1.5 h-1.5 rounded-full bg-teal-500 dark:bg-teal-400 animate-pulse"
-                style={{ animationDelay: `${i * 0.2}s` }}
-                />
+                    className="text-sm font-extrabold tracking-wider text-teal-400 animate-pulse"
+                    style={{
+                    animationDelay: `${i * 0.15}s`,
+                    }}
+                >
+                    {letter}
+                </span>
+                </div>
+             ))}
             </div>
-            ))}
-        </div>
         </div>
 
       {/* Corner category cards */}
