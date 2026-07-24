@@ -12,7 +12,7 @@ export const personalInfo = {
   linkedIn: 'https://www.linkedin.com/in/mebit-melak-gashaye-31b2b1379/',
   portfolio: 'https://cv.melaklegacy.com.et',
   cv: CV,
-  bio: "Full Stack Software Developer from Ethiopia with experience in web application development, backend systems, frontend technologies, databases, and Oracle cloud deployment. Committed to delivering efficient, scalable, and high-quality software solutions.",
+  bio: "Full Stack Software Developer with experience in web application development, backend systems, frontend technologies, databases, and Oracle Cloud deployment. Committed to delivering efficient, scalable, and high-quality software solutions.",
   availableForWork: true,
 };
 
