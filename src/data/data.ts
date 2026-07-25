@@ -7,7 +7,7 @@ export const personalInfo = {
   title: 'Full-Stack Software Developer',
   location: 'Addis Ababa, Ethiopia',
   email: 'melakmebit75@gmail.com',
-  phone: '+251 973921904 / +251 704943841',
+  phone: '+251 973921904 / +251 950255340',
   github: 'https://github.com/me-1219',
   linkedIn: 'https://www.linkedin.com/in/mebit-melak-gashaye-31b2b1379/',
   portfolio: 'https://cv.melaklegacy.com.et',
