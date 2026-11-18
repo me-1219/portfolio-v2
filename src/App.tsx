@@ -9,6 +9,7 @@ import { Projects } from './components/sections/Projects';
 import { Blog } from './components/sections/Blog';
 import { Contact } from './components/sections/Contact';
 import { Analytics } from '@vercel/analytics/react';
+// @ts-expect-error CSS files are handled by the bundler.
 import './styles/globals.css';
 function App() {
   return (
