@@ -8,8 +8,8 @@ import { Skills } from './components/sections/Skills';
 import { Projects } from './components/sections/Projects';
 import { Blog } from './components/sections/Blog';
 import { Contact } from './components/sections/Contact';
+import { Analytics } from '@vercel/analytics/react';
 import './styles/globals.css';
-
 function App() {
   return (
     <ThemeProvider>
@@ -25,6 +25,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <Analytics />
       </div>
     </ThemeProvider>
   );
